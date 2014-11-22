@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Klaustrofobia Control Panel</title>
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+    <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <div id="main_wrapper" class="bordered">
+        <div id="block1" class="b_separated">
+            <div id="timer1" class="warning">00:00:00:00</div>
+            <div id="door1" class="door_closed"></div>
+            <div id="diodes1" class="l_bordered">
+                <div id="diode1_1" class="diode_red"></div>
+                <div id="diode1_2" class="diode_red"></div>
+            </div>
+            <div id="figures1" class="l_bordered">
+
+            </div>
+            <div id="button1" class="not_pushed"></div>
+        </div>
+        <div id="block2" class="b_separated">
+            <table id="dates2" border="2">
+                <tr><td class="row0">0000</td></tr>
+                <tr><td class="row1">00</td></tr>
+                <tr><td class="row2">00</td></tr>
+                <tr><td class="row3">00:00</td></tr>
+            </table>
+            <div id="counter2">0/0</div>
+            <div id="display2" class="l_bordered">
+
+            </div>
+            <div id="battery2">
+                <div class="battery_dop"></div>
+                <div class="battery_indicator" style="width:196px"></div>
+            </div>
+        </div>
+        <div id="block3" class="b_separated">
+            <div id="battery3">
+                <div class="battery_dop"></div>
+                <div class="battery_indicator" style="width:196px"></div>
+            </div>
+            <div id="code3" class="l_bordered"></div>
+            <div id="key3" class="key_box"><img alt="" style="display:none" src="/images/key.png"/></div>
+        </div>
+        <div id="block4" class="r_separated">
+            <div id="key4" class="key_box"><img alt="" style="display:none" src="/images/key.png"/></div>
+        </div>
+        <div id="block5">
+            <div id="door5" class="door_closed"></div>
+        </div>
+        <div class="float_fix"></div>
+    </div>
+</body>
+</html>

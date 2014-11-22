@@ -1,0 +1,200 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: green;
+    font-family: monospace;
+}
+
+#main_wrapper {
+    position: relative;
+    width: 1024px;
+    margin: 10px auto;
+}
+
+div{
+    position: relative;
+}
+#block1, #block2 {
+    min-height: 250px;
+}
+#block3, #block4, #block5{
+    min-height: 150px;
+}
+#block4, #block5{
+    width:510px;
+    float: left;
+}
+#timer1{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+#door1{
+    height:100px; width: 60px;
+    position: absolute;
+    top: 60px;
+    left: 50px;
+}
+#diodes1{
+    position: absolute;
+    left: 400px;
+    top: 30px;
+    padding: 5px;
+}
+#diode1_1, #diode1_2{
+    float: left;
+}
+#diode1_2{
+    margin-left: 15px;
+}
+#figures1{
+    width:200px;
+    height:100px;
+    position: absolute;
+    top:90px;
+    left:340px;
+}
+#button1{
+    position: absolute;
+    right: 60px;
+    top: 90px;
+    width: 80px; height: 80px;
+    background-color: red;
+}
+
+#dates2{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+#dates2 tr td{
+    padding: 3px;
+    text-align: right;
+    min-width: 80px;
+    font-size: 16px;
+}
+#counter2{
+    font-size: 24px;
+    position: absolute;
+    bottom: 40px;
+    left: 60px;
+}
+#display2{
+    position: absolute;
+    width:200px;
+    height: 200px;
+    top:30px;
+    left:340px;
+}
+#battery2{
+    width:200px;
+    height:80px;
+    position: absolute;
+    right:60px;
+    top:85px;
+    border: 3px solid grey;
+}
+#battery3{
+    width:200px;
+    height:80px;
+    position: absolute;
+    left:50px;
+    top:20px;
+    border: 3px solid grey;
+}
+#code3{
+    font-size: 24px;
+    position: absolute;
+    top: 40px;
+    left: 490px;
+    width: 60px;
+    padding: 5px;
+}
+#key3{
+    position: absolute;
+    right: 100px;
+    top: 30px;
+}
+#key4{
+    position: absolute;
+    left: 200px;
+    top: 30px;
+}
+#door5{
+    height:100px; width: 60px;
+    position: absolute;
+    top: 20px;
+    right: 220px;
+}
+
+
+.door_closed{
+    background-image: url(images/closed_door.png);
+}
+.door_open{
+    background-image: url(images/open_door.png);
+}
+.diode_red, .diode_green{
+    border: 3px outset grey;
+    width: 20px;
+    height: 20px;
+}
+.not_pushed{
+    border: 5px outset grey;
+}
+.pushed{
+    border: 5px inset grey;
+}
+.diode_red{
+    background-color: red;
+}
+.diode_green{
+    background-color: green;
+}
+.battery_dop{
+    position: absolute;
+    width: 10px;
+    height: 30px;
+    left:-13px;
+    top:25px;
+    outline: 3px solid grey;
+}
+.battery_indicator{
+    background-color: green;
+    position: absolute;
+    right: 2px;
+    top:2px;
+    height:76px;
+}
+.key_box{
+    outline: 3px solid grey;
+    width: 80px;
+    height: 83px;
+    padding-top: 5px;
+}
+.key_box img{
+    width: 80px;
+}
+
+.bordered {
+    border: 4px solid grey;
+}
+.l_bordered{
+    border: 2px solid grey;
+}
+.b_separated {
+    border-bottom: 2px solid white;
+}
+.r_separated {
+    border-right: 2px solid white;
+}
+
+.warning {
+    color: red;
+    font-size: 50px;
+    font-weight: bold;
+}
+.float_fix{
+    clear:both;
+}
