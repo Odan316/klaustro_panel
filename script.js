@@ -42,6 +42,14 @@ function updateFields(data){
                 }
                 break;
             case "figures":
+                for(var key2 in value){
+                    if(!value.hasOwnProperty(key2)) continue;
+                    if(value[key2] == 1){
+                        element.find("#fig_"+key2).show();
+                    } else {
+                        element.find("#fig_"+key2).hide();
+                    }
+                }
                 break;
             case "button":
                 if(value){

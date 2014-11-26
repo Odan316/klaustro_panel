@@ -30,7 +30,11 @@ $data = [
     [
         "type" => "figures",
         "name" => "figures1",
-        "value" => 0
+        "value" => [
+            "triangle" => 1,
+            "square" => 0,
+            "circle" => 1
+        ]
     ],
     [
         "type" => "button",

@@ -49,11 +49,22 @@ div{
     margin-left: 15px;
 }
 #figures1{
-    width:200px;
+    width:300px;
     height:100px;
     position: absolute;
     top:90px;
-    left:340px;
+    left:300px;
+}
+#figures1 img{
+    width:100px;
+    height:100px;
+    position: absolute;
+}
+#fig_square{
+    left: 100px;
+}
+#fig_circle{
+    left: 200px;
 }
 #button1{
     position: absolute;

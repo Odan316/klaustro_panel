@@ -16,7 +16,9 @@
                 <div id="diode1_2" class="diode_red"></div>
             </div>
             <div id="figures1" class="l_bordered">
-
+                <img alt="" style="display:none" id="fig_triangle" src="images/triangle.png"/>
+                <img alt="" style="display:none" id="fig_square" src="images/square.png"/>
+                <img alt="" style="display:none" id="fig_circle" src="images/circle.png"/>
             </div>
             <div id="button1" class="not_pushed"></div>
         </div>
