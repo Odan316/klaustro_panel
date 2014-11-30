@@ -7,8 +7,8 @@ $(function(){
 
 function updateAll(){
     $.ajax({
-        url: "/api.php",
-        type: "POST",
+        url: "/example.json",
+        type: "GET",
         async: false,
         dataType: "json",
         success: function(data){
@@ -32,6 +32,13 @@ function updateFields(data){
                     element.removeClass("door_closed").addClass("door_open");
                 } else {
                     element.removeClass("door_open").addClass("door_closed");
+                }
+                break;
+            case "microwave":
+                if(value){
+                    element.removeClass("m_closed").addClass("m_open");
+                } else {
+                    element.removeClass("m_open").addClass("m_closed");
                 }
                 break;
             case "diode":
@@ -63,8 +70,6 @@ function updateFields(data){
                     if(!value.hasOwnProperty(key2)) continue;
                     element.find(".row"+key2).text(value[key2]);
                 }
-                break;
-            case "display":
                 break;
             case "battery":
                 var b_width = element.width() - 4;

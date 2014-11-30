@@ -18,7 +18,7 @@
         ]
     },
     {"type": "string", "name": "counter2", "value": "0\/1"},
-    {"type": "display", "name": "display2", "value": 0},
+    {"type": "microwave", "name": "microwave2", "value": 1},
     {"type": "battery", "name": "battery2", "value": 0.25},
     {"type": "battery", "name": "battery3", "value": 0.75},
     {"type": "string", "name": "code3", "value": "12"},

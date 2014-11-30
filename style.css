@@ -91,9 +91,9 @@ div{
     bottom: 40px;
     left: 60px;
 }
-#display2{
+#microwave2{
     position: absolute;
-    width:200px;
+    width:300px;
     height: 200px;
     top:30px;
     left:340px;
@@ -120,6 +120,7 @@ div{
     top: 40px;
     left: 490px;
     width: 60px;
+    height: 29px;
     padding: 5px;
 }
 #key3{
@@ -145,6 +146,12 @@ div{
 }
 .door_open{
     background-image: url(images/open_door.png);
+}
+.m_closed{
+    background-image: url(images/m_closed.png);
+}
+.m_open{
+    background-image: url(images/m_open.png);
 }
 .diode_red, .diode_green{
     border: 3px outset grey;
