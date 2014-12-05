@@ -37,10 +37,10 @@ div{
     left: 50px;
 }
 #diodes1{
+    left: 380px;
+    padding: 15px;
     position: absolute;
-    left: 400px;
-    top: 30px;
-    padding: 5px;
+    top: 15px;
 }
 #diode1_1, #diode1_2{
     float: left;
@@ -52,7 +52,7 @@ div{
     width:300px;
     height:100px;
     position: absolute;
-    top:90px;
+    top:120px;
     left:300px;
 }
 #figures1 img{
@@ -95,8 +95,8 @@ div{
     position: absolute;
     width:300px;
     height: 200px;
-    top:30px;
-    left:340px;
+    top:24px;
+    left:330px;
 }
 #battery2{
     width:200px;
@@ -147,6 +147,14 @@ div{
 .door_open{
     background-image: url(images/open_door.png);
 }
+.door{
+    text-align: center;
+}
+.door .title{
+    bottom: -105px;
+    font-size: 20px;
+    position: relative;
+}
 .m_closed{
     background-image: url(images/m_closed.png);
 }
@@ -154,21 +162,22 @@ div{
     background-image: url(images/m_open.png);
 }
 .diode_red, .diode_green{
-    border: 3px outset grey;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
+}
+.diode_red{
+    background-color: darkgrey;
+    border: 10px outset lightgrey;
+}
+.diode_green{
+    background-color: green;
+    border: 10px inset grey;
 }
 .not_pushed{
     border: 5px outset grey;
 }
 .pushed{
     border: 5px inset grey;
-}
-.diode_red{
-    background-color: red;
-}
-.diode_green{
-    background-color: green;
 }
 .battery_dop{
     position: absolute;

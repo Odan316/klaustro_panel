@@ -7,7 +7,7 @@ $(function(){
 
 function updateAll(){
     $.ajax({
-        url: "/example.json",
+        url: "/tlch/example.json",
         type: "GET",
         async: false,
         dataType: "json",
@@ -78,9 +78,11 @@ function updateFields(data){
                 break;
             case "key":
                 if(value){
-                    element.find("img").show();
+                    element.find(".active").show();
+                    element.find(".inactive").hide();
                 } else {
-                    element.find("img").hide();
+                    element.find(".active").hide();
+                    element.find(".inactive").show();
                 }
                 break;
             default:
